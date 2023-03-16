@@ -1,0 +1,18 @@
+
+Primera clase 
+GIT STATUS
+GIT ADD .
+GIT COMMIT -M 'Mensaje de commit'
+GIT PUSH -U ORIGIN MAIN
+
+Segunda clase - CREAMOS RAMAS 
+GIT BRANCH
+GIT CHEKOUT -B NOMBRERAMA (FEAT/---)
+    trabajar la rama
+    GIT STATUS
+    GIT ADD .
+    GIT COMMIT -M 'Mensaje de commit'
+    
+GIT CHECKOUT MAIN
+GIT MERGE NOMBRERAMA
+GIT PUSH -U ORIGIN MAIN 
