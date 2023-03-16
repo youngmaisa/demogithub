@@ -7,8 +7,8 @@ GIT PUSH -U ORIGIN MAIN
 
 Segunda clase - CREAMOS RAMAS 
 GIT BRANCH
-GIT CHEKOUT -B NOMBRERAMA (FEAT/---) -- creamos rama
-    trabajar la rama
+GIT CHECKOUT -B NOMBRERAMA (FEAT/---) -- crea rama y te mueve
+    (trabajamos la rama)
     GIT STATUS
     GIT ADD .
     GIT COMMIT -M 'Mensaje de commit'
@@ -17,5 +17,8 @@ GIT CHEKOUT -B NOMBRERAMA (FEAT/---) -- creamos rama
         mas no es necesario
 
 GIT CHECKOUT MAIN -- regresamos a main para traer la rama
-GIT MERGE NOMBRERAMA
-GIT PUSH -U ORIGIN MAIN 
+GIT MERGE NOMBRERAMA -- importamos rama
+GIT PUSH -U ORIGIN MAIN  -- subimos a la nube
+
+NOTA: SI QUEREMOS VOLVER A ACCEDER A UNA RAMA
+GIT CHECKOUT NOMBRERAMA
